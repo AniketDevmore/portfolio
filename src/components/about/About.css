@@ -1,0 +1,104 @@
+.mainAboutDiv {
+  margin-top: 63px;
+  position: relative;
+}
+.aboutImgDiv {
+  width: 99vw;
+  height: 590px;
+}
+.aboutImgDiv img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+.aboutTextDiv {
+  position: absolute;
+  top: 30px;
+  left: 15%;
+}
+.aboutTextDiv h5 {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.2rem;
+  text-shadow: 10px 10px 2px #000;
+}
+.aboutTextDiv h1,
+h2 {
+  font-size: 4rem;
+  font-family: "Montez", cursive;
+  letter-spacing: 0.4rem;
+  margin: 0 auto;
+  text-shadow: 10px 10px 2px #000;
+}
+.aboutTextDiv hr,
+.aboutTextDiv p {
+  width: 220px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.aboutTextDiv p {
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.aboutTextDiv a {
+  background-color: rgb(8, 248, 248);
+  color: #000;
+  border: 1px solid #fff;
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 9px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+.aboutTextDiv a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.aboutContentDiv {
+  text-align: center;
+  width: 45vw;
+  margin: 100px auto;
+}
+.aboutContentDiv h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 5px #ffffffc4;
+}
+.aboutContentDiv p {
+  font-size: 1.2rem;
+}
+
+.aboutSkillsDiv h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 5px #ffffffc4;
+}
+.skillsInternalDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60vw;
+  margin: 50px auto;
+}
+.skillsInternalDiv span {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  background-color: #5f5e5e;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.skillsInternalDiv span img {
+  width: 100%;
+  height: 100%;
+}

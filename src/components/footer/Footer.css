@@ -1,0 +1,72 @@
+.footer-container {
+  width: inherit;
+  background-color: rgb(56, 58, 58);
+  padding: 30px 0 20px 0;
+}
+.footerInner {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  margin: auto;
+  align-items: center;
+}
+.hrLine {
+  width: 1px;
+  height: 20vh;
+}
+.footerInner:first-child h5 {
+  margin: 0 20px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+}
+.footerInner:first-child h5 i {
+  font-size: 1.3rem;
+}
+.footerInner:first-child h5 span {
+  font-weight: 100;
+  margin-left: 15px;
+}
+
+.footContainerSec {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+.footContainerSec a {
+  width: 90px;
+  line-height: 3rem;
+  text-decoration: none;
+  color: #fff;
+}
+.footContainerSec a:hover {
+  color: rgb(121, 196, 186);
+}
+
+.copyright {
+  text-align: center;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 670px) {
+  .footerInner {
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+  }
+  .footContainerSec {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  .footContainerSec a {
+    margin: 5px;
+  }
+  .hrLine {
+    display: block;
+    width: 20vw;
+    height: 1px;
+  }
+}

@@ -1,0 +1,12 @@
+/* refer about.css */
+#allproj {
+  left: 12vw;
+}
+#projH5 {
+  font-size: 4rem;
+  margin: 120px auto 0 auto;
+}
+#projPara {
+  font-size: 2rem;
+  width: fit-content;
+}

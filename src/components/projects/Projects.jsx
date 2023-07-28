@@ -1,0 +1,40 @@
+import React, { useEffect, useState } from "react";
+import "./Projects.css";
+import { useSelector } from "react-redux";
+
+const Projects = () => {
+  const [fourProj, setFourProj] = useState([]);
+  const project = useSelector((state) => state.counter.project);
+  // console.log(project);
+  useEffect(() => {
+    let data = project.slice(0, 4);
+    setFourProj(data);
+  }, []);
+
+  return (
+    <div>
+      <h1 className="projectHeading">Project</h1>
+      <div className="cardOuterDiv">
+        {fourProj.map((ele, i) => (
+          <div key={i} className="cardInnerDiv">
+            <div className="imgDiv">
+              <img src={ele.img} alt={ele.name} />
+            </div>
+            <h5>{ele.name}</h5>
+            <p>{ele.description}</p>
+            <div className="btnDiv">
+              <a href={ele.hostLink} target="_blank">
+                VIEW
+              </a>
+              <a href={ele.githubLink} target="_blank">
+                SOURCE
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
