@@ -57,7 +57,6 @@
     margin: auto;
   }
   .footContainerSec {
-    display: flex;
     flex-direction: row;
     margin: 10px;
   }
@@ -68,5 +67,10 @@
     display: block;
     width: 20vw;
     height: 1px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footContainerSec {
+    flex-direction: column;
   }
 }

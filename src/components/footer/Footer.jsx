@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="copyright">@aniketdevmore</div>
+        <div className="copyright">Copyright © 2023 aniketdevmore ®</div>
       </div>
     </div>
   );

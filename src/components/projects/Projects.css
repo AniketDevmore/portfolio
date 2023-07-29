@@ -12,6 +12,8 @@
   padding: 20px;
 }
 .cardInnerDiv {
+  display: flex;
+  flex-direction: column;
   width: 460px;
   margin: 40px;
   padding: 10px;
@@ -65,8 +67,9 @@
   background-color: rgb(0, 54, 54);
   color: #fff;
 }
-@media screen and (max-width: 500px) {
-  .imgDiv {
-    height: 30%;
+@media screen and (max-width: 360px) {
+  .btnDiv {
+    flex-direction: column;
+    text-align: center;
   }
 }
