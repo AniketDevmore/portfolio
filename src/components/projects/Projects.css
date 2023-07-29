@@ -22,8 +22,8 @@
   box-shadow: 2px 2px 15px 3px #757575;
 }
 .imgDiv {
-  width: 420px;
-  height: 300px;
+  width: 98%;
+  height: 50%;
   margin: 7px auto;
   overflow: hidden;
 }
@@ -64,4 +64,9 @@
 .btnDiv a:hover {
   background-color: rgb(0, 54, 54);
   color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .imgDiv {
+    height: 30%;
+  }
 }
