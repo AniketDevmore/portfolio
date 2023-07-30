@@ -23,7 +23,9 @@ const Contact = () => {
       formData.subject.length >= 10 &&
       formData.message.length >= 20
     ) {
-      window.location.href = `mailto:aniketdevmore1008@gmail.com?body=${`name=${formData.name},%20email=${formData.email},%20subject=${formData.subject},%20message=${formData.message}`}`;
+      window.location.href = `mailto:aniketdevmore1008@gmail.com?subject=${
+        formData.subject
+      }&body=${`name=${formData.name},%20email=${formData.email},%20message=${formData.message}`}`;
       setFormData({
         name: "",
         email: "",
