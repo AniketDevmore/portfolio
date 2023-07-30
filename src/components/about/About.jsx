@@ -45,33 +45,43 @@ const About = () => {
           <div className="skillsInternalDiv">
             <span>
               <img src={html} alt="html" />
+              <span>HTML</span>
             </span>
             <span>
               <img src={css} alt="css" />
+              <span>CSS</span>
             </span>
             <span>
               <img src={js} alt="js" />
+              <span>JS</span>
             </span>
             <span>
               <img src={bootstrap} alt="bootstrap" />
+              <span>BOOTSTRAP</span>
             </span>
             <span>
               <img src={material} alt="material-UI" />
+              <span>MATERIAL_UI</span>
             </span>
             <span>
               <img src={ant} alt="ant-design" />
+              <span>ANT_DESIGN</span>
             </span>
             <span>
               <img src={react} alt="react" />
+              <span>REACT_JS</span>
             </span>
             <span>
               <img src={node} alt="nodeJS" />
+              <span>NODE_JS</span>
             </span>
             <span>
               <img src={mongodb} alt="mongoDB" />
+              <span>MONGO_DB</span>
             </span>
             <span>
               <img src={git} alt="git" />
+              <span>GIT</span>
             </span>
           </div>
         </div>

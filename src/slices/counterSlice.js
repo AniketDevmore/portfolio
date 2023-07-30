@@ -3,6 +3,10 @@ import sortingVisulizer from "../images/sorting-visulizer.jpg";
 import thaliApp from "../images/thali-app.jpg";
 import tipCalculator from "../images/tip-calculator.jpg";
 import farmCart from "../images/farmcart.jpg";
+import toDo from "../images/toDo.png";
+import dicee from "../images/dicee.png";
+import drum from "../images/drum.png";
+import stopWatch from "../images/stopWatch.png";
 
 export const counterSlice = createSlice({
   name: "counter",
@@ -41,23 +45,61 @@ export const counterSlice = createSlice({
         img: farmCart,
       },
       {
-        name: "",
-        hostLink: "",
-        githubLink: "",
-        description: "",
+        name: "ToDo App",
+        hostLink: "https://todo-app-994438.netlify.app/",
+        githubLink: "https://github.com/AniketDevmore/ReactTodoApp.git",
+        description:
+          "The ToDo App project is a web application that helps users manage their tasks and stay organized. It provides a user-friendly interface to add, update, and delete tasks, as well as mark them as complete. With its intuitive design and dynamic functionality, this project offers a convenient solution for keeping track of daily tasks and responsibilities.The project utilizes HTML, CSS, JavaScript, and React to create an interactive and responsive user interface. HTML structures the content, CSS styles and enhances the layout, JavaScript handles the logic, and React powers the dynamic rendering and state management of the application.",
+        img: toDo,
       },
-      //   {
-      //     name: "",
-      //     hostLink: "",
-      //     githubLink: "",
-      //     description: "",
-      //   },
-      //   {
-      //     name: "",
-      //     hostLink: "",
-      //     githubLink: "",
-      //     description: "",
-      //   },
+      {
+        name: "Dicee Challenge",
+        hostLink: "https://dicee-challenge-afb40c.netlify.app/",
+        githubLink: "https://github.com/AniketDevmore/DiceeChallenge.git",
+        description:
+          "The Dice Challenge project is an interactive web application that simulates a dice game. It allows users to roll two dice and compare the results to determine the winner. With its engaging interface and random outcome generation, this project provides a fun and exciting gaming experience.The project utilizes HTML, CSS, and JavaScript to create an interactive and visually appealing user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the dice game.",
+        img: dicee,
+      },
+      {
+        name: "Drum Kit",
+        hostLink: "https://drum-kit-e7be9d.netlify.app/",
+        githubLink: "https://github.com/AniketDevmore/DrumKit.git",
+        description:
+          "    The Drum Kit project is an interactive web application that emulates a virtual drum set. It allows users to play different drum sounds by pressing corresponding keys on their keyboard or by clicking on the drum pads on the screen. With its realistic sound effects and dynamic visual feedback, this project provides a fun and immersive drumming experience.The project utilizes HTML, CSS, and JavaScript to create an engaging and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of playing the drum sounds.",
+        img: drum,
+      },
+      {
+        name: "Stop Wtch",
+        hostLink: "https://github.com/AniketDevmore/StopWatch.git",
+        githubLink: "https://github.com/AniketDevmore/StopWatch.git",
+        description:
+          "The Stopwatch App is a simple and user-friendly web application that emulates a digital stopwatch. It provides users with the ability to start, stop, and reset the stopwatch, allowing them to measure elapsed time accurately. With its intuitive design and real-time updates, this project offers a convenient solution for timing various activities and tasks.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the stop watch application.",
+        img: stopWatch,
+      },
+      // {
+      //   name: "",
+      //   hostLink: "",
+      //   githubLink: "",
+      //   description: "",
+      // },
+      // {
+      //   name: "",
+      //   hostLink: "",
+      //   githubLink: "",
+      //   description: "",
+      // },
+      // {
+      //   name: "",
+      //   hostLink: "",
+      //   githubLink: "",
+      //   description: "",
+      // },
+      // {
+      //   name: "",
+      //   hostLink: "",
+      //   githubLink: "",
+      //   description: "",
+      // },
     ],
   },
   reducers: {},
