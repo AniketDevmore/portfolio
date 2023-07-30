@@ -68,6 +68,9 @@
   .mainTextDiv {
     height: 660px;
   }
+  .mainTextDiv {
+    top: 90%;
+  }
   .mainTextDiv h5 {
     font-size: 1.1rem;
   }
