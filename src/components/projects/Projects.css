@@ -21,7 +21,10 @@
   background-color: rgb(51, 51, 51);
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 2px 2px 15px 3px #757575;
+  box-shadow: 0 0 15px 3px #494848;
+}
+.cardInnerDiv:hover {
+  box-shadow: 0 0 15px 3px #cfcece;
 }
 .imgDiv {
   width: 98%;

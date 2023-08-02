@@ -91,7 +91,7 @@ h2 {
 }
 .skillsInternalDiv span {
   display: inline-block;
-  width: 110px;
+  width: 120px;
   height: 110px;
   background-color: #5f5e5e;
   padding: 10px;
@@ -113,14 +113,18 @@ h2 {
   font-size: 1.1rem;
   top: -60px;
   left: -10px;
-  background-color: #fdfeff;
-  color: #000;
+  background-color: #adaeaf;
+  color: #ffffff;
   font-weight: 900;
   visibility: hidden;
   z-index: 1;
+  text-shadow: 3px 3px 5px #000;
 }
 .skillsInternalDiv span:hover span {
   visibility: visible;
+}
+.skillsInternalDiv span:hover {
+  box-shadow: 0 0 10px 2px #ffffff;
 }
 @media screen and (max-width: 500px) {
   .aboutImgDiv {
