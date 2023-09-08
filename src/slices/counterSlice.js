@@ -7,6 +7,7 @@ import toDo from "../images/toDo.png";
 import dicee from "../images/dicee.png";
 import drum from "../images/drum.png";
 import stopWatch from "../images/stopWatch.png";
+import furnitureShop from "../images/furnitureShop.png";
 
 export const counterSlice = createSlice({
   name: "counter",
@@ -19,6 +20,14 @@ export const counterSlice = createSlice({
         description:
           "The Sorting Visualizer project is an interactive web application that allows users to visualize various sorting algorithms in action. By presenting the sorting process in a visual and animated format, this project aims to enhance understanding and intuition about how different sorting algorithms work.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic and animations of the sorting algorithms.",
         img: sortingVisulizer,
+      },
+      {
+        name: "Furniture Shop",
+        hostLink: "https://furniture-shop-cyan.vercel.app/",
+        githubLink: "https://github.com/AniketDevmore/FurnitureShop.git",
+        description:
+          "The Furniture Shop Official Website is the online representation of our renowned furniture store. It serves as the digital front door to shop, providing customers with an engaging and informative platform for exploring our range of furniture and home decor products. This project is designed to offer a seamless and immersive experience that reflects shop commitment to quality, style, and customer satisfaction.The project utilizes HTML, CSS, JavaScript, React, and Redux to create an immersive and responsive user interface. HTML structures the content, CSS enhances the visual appeal and layout, JavaScript handles the logic, React powers the dynamic rendering, and Redux manages the state of the application.",
+        img: furnitureShop,
       },
       {
         name: "Thali App",
@@ -76,12 +85,7 @@ export const counterSlice = createSlice({
           "The Stopwatch App is a simple and user-friendly web application that emulates a digital stopwatch. It provides users with the ability to start, stop, and reset the stopwatch, allowing them to measure elapsed time accurately. With its intuitive design and real-time updates, this project offers a convenient solution for timing various activities and tasks.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the stop watch application.",
         img: stopWatch,
       },
-      // {
-      //   name: "",
-      //   hostLink: "",
-      //   githubLink: "",
-      //   description: "",
-      // },
+
       // {
       //   name: "",
       //   hostLink: "",
