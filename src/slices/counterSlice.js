@@ -8,6 +8,7 @@ import dicee from "../images/dicee.png";
 import drum from "../images/drum.png";
 import stopWatch from "../images/stopWatch.png";
 import furnitureShop from "../images/furnitureShop.png";
+import quickNotes from "../images/quickNotes.png";
 
 export const counterSlice = createSlice({
   name: "counter",
@@ -86,12 +87,14 @@ export const counterSlice = createSlice({
         img: stopWatch,
       },
 
-      // {
-      //   name: "",
-      //   hostLink: "",
-      //   githubLink: "",
-      //   description: "",
-      // },
+      {
+        name: "Quick Notes",
+        hostLink: "https://quick-notes-pi.vercel.app/",
+        githubLink: "https://github.com/AniketDevmore/quickNotes.git",
+        description:
+          "The Quick Notes App is a user-friendly web application designed for efficient note-taking and organization. It offers a seamless and intuitive platform for users to create, edit, and manage their notes quickly and effectively. This project combines the power of Bootstrap and Material UI for a visually appealing and responsive user interface, while React JS and JavaScript provide dynamic functionality.",
+        img: quickNotes,
+      },
       // {
       //   name: "",
       //   hostLink: "",
