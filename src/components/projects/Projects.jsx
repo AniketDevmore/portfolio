@@ -5,7 +5,8 @@ import { useSelector } from "react-redux";
 const Projects = () => {
   const [fourProj, setFourProj] = useState([]);
   const project = useSelector((state) => state.counter.project);
-  // console.log(project);
+
+  // slicing first four projects
   useEffect(() => {
     let data = project.slice(0, 4);
     setFourProj(data);
@@ -13,6 +14,7 @@ const Projects = () => {
 
   return (
     <div>
+      {/* first four projects to display on main page */}
       <h1 className="projectHeading">Project</h1>
       <div className="cardOuterDiv">
         {fourProj.map((ele, i) => (

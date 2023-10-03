@@ -3,7 +3,7 @@ import "./AllProjects.css";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { useSelector } from "react-redux";
-import projImg from "../../images/projImg.jpg";
+import projImg from "../../../public/images/projImg.jpg";
 
 const AllProjects = () => {
   const project = useSelector((state) => state.counter.project);
@@ -11,6 +11,7 @@ const AllProjects = () => {
   return (
     <div>
       <Navbar />
+      {/* html for projects page */}
       <div className="mainAboutDiv">
         <div className="aboutImgDiv">
           <img src={projImg} alt="developer" />
@@ -26,6 +27,7 @@ const AllProjects = () => {
       </div>
 
       <div className="cardOuterDiv">
+        {/* display all projects */}
         {project.map((ele, i) => (
           <div key={i} className="cardInnerDiv">
             <div className="imgDiv">

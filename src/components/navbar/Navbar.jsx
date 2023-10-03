@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
+      {/* html for navbar */}
       <nav className="navigation">
         <div className="leftSide">
           <h1>

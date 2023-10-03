@@ -2,23 +2,24 @@ import React from "react";
 import "./About.css";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import aboutImg from "../../images/aboutImg2.jpg";
-import html from "../../images/html.png";
-import css from "../../images/css.png";
-import js from "../../images/js.png";
-import bootstrap from "../../images/bootstrap.png";
-import material from "../../images/material.png";
-import ant from "../../images/ant-design.png";
-import react from "../../images/react.png";
-import node from "../../images/node.png";
-import mongodb from "../../images/mongoDB.png";
-import git from "../../images/git.png";
+import aboutImg from "../../../public/images/aboutImg2.jpg";
+import html from "../../../public/images/html.png";
+import css from "../../../public/images/css.png";
+import js from "../../../public/images/js.png";
+import bootstrap from "../../../public/images/bootstrap.png";
+import material from "../../../public/images/material.png";
+import ant from "../../../public/images/ant-design.png";
+import react from "../../../public/images/react.png";
+import node from "../../../public/images/node.png";
+import mongodb from "../../../public/images/mongoDB.png";
+import git from "../../../public/images/git.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div>
       <Navbar />
+      {/* html for about page */}
       <div className="mainAboutDiv">
         <div className="aboutImgDiv">
           <img src={aboutImg} alt="developer" />

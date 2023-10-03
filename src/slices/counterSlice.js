@@ -1,14 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
-import sortingVisulizer from "../images/sorting-visulizer.jpg";
-import thaliApp from "../images/thali-app.jpg";
-import tipCalculator from "../images/tip-calculator.jpg";
-import farmCart from "../images/farmcart.jpg";
-import toDo from "../images/toDo.png";
-import dicee from "../images/dicee.png";
-import drum from "../images/drum.png";
-import stopWatch from "../images/stopWatch.png";
-import furnitureShop from "../images/furnitureShop.png";
-import quickNotes from "../images/quickNotes.png";
+import sortingVisulizer from "../../public/images/sorting-visulizer.jpg";
+import thaliApp from "../../public/images/thali-app.jpg";
+import tipCalculator from "../../public/images/tip-calculator.jpg";
+import farmCart from "../../public/images/farmcart.jpg";
+import toDo from "../../public/images/toDo.png";
+import dicee from "../../public/images/dicee.png";
+import drum from "../../public/images/drum.png";
+import stopWatch from "../../public/images/stopWatch.png";
+import furnitureShop from "../../public/images/furnitureShop.png";
+import quickNotes from "../../public/images/quickNotes.png";
 
 export const counterSlice = createSlice({
   name: "counter",

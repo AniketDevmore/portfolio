@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Contact.css";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import contactme from "../../images/contactme.jpg";
+import contactme from "../../../public/images/contactme.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,12 +11,13 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+
+  // savee input data to formData state
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
+  // send all data by mail
   const sendHandler = () => {
-    // console.log(formData);
-
     if (
       formData.name.length >= 1 &&
       formData.email.length >= 1 &&
@@ -52,6 +53,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
+      {/* html for contact page */}
       <div className="mainAboutDiv">
         <div className="aboutImgDiv">
           <img src={contactme} alt="developer" />
