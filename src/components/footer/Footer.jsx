@@ -30,21 +30,21 @@ const Footer = () => {
               href="https://www.linkedin.com/in/aniket-devmore-40a094192"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin"></i> LinkedIn
+              <i className="fa-brands fa-linkedin fa-lg"></i> LinkedIn
             </a>
             <a
               className="footer-link"
               href="https://github.com/AniketDevmore"
               target="_blank"
             >
-              <i className="fa-brands fa-github"></i> GitHub
+              <i className="fa-brands fa-github fa-lg"></i> GitHub
             </a>
             <a
               className="footer-link"
               href="https://twitter.com/DevmoreS?t=kDr_RMmM2dTxQPd9UChfBg&s=03"
               target="_blank"
             >
-              <i className="fa-brands fa-twitter"></i> Twitter
+              <i className="fa-brands fa-twitter fa-lg"></i> Twitter
             </a>
           </div>
         </div>
