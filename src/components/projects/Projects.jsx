@@ -26,10 +26,12 @@ const Projects = () => {
             <p>{ele.description}</p>
             <div className="btnDiv">
               <a href={ele.hostLink} target="_blank">
-                VIEW
+                {/* VIEW */}
+                <i class="fa-solid fa-desktop fa-lg"></i>
               </a>
               <a href={ele.githubLink} target="_blank">
-                SOURCE
+                {/* SOURCE */}
+                <i className="fa-brands fa-github fa-lg"></i>
               </a>
             </div>
           </div>

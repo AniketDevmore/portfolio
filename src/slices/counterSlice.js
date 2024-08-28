@@ -30,14 +30,14 @@ export const counterSlice = createSlice({
           "The Furniture Shop Official Website is the online representation of our renowned furniture store. It serves as the digital front door to shop, providing customers with an engaging and informative platform for exploring our range of furniture and home decor products. This project is designed to offer a seamless and immersive experience that reflects shop commitment to quality, style, and customer satisfaction.The project utilizes HTML, CSS, JavaScript, React, and Redux to create an immersive and responsive user interface. HTML structures the content, CSS enhances the visual appeal and layout, JavaScript handles the logic, React powers the dynamic rendering, and Redux manages the state of the application.",
         img: furnitureShop,
       },
-      {
-        name: "Thali App",
-        hostLink: "https://create-your-thali-app.netlify.app/",
-        githubLink: "https://github.com/AniketDevmore/ReduxThaliApp.git",
-        description:
-          "    The Thali App project is a web application that allows users to explore and order traditional Indian thali meals. It provides an interactive interface to browse through different thali options, customize meal preferences.The project utilizes HTML, CSS, JavaScript, React, and Redux to create an immersive and responsive user interface. HTML structures the content, CSS enhances the visual appeal and layout, JavaScript handles the logic, React powers the dynamic rendering, and Redux manages the state of the application.",
-        img: thaliApp,
-      },
+      // {
+      //   name: "Thali App",
+      //   hostLink: "https://create-your-thali-app.netlify.app/",
+      //   githubLink: "https://github.com/AniketDevmore/ReduxThaliApp.git",
+      //   description:
+      //     "    The Thali App project is a web application that allows users to explore and order traditional Indian thali meals. It provides an interactive interface to browse through different thali options, customize meal preferences.The project utilizes HTML, CSS, JavaScript, React, and Redux to create an immersive and responsive user interface. HTML structures the content, CSS enhances the visual appeal and layout, JavaScript handles the logic, React powers the dynamic rendering, and Redux manages the state of the application.",
+      //   img: thaliApp,
+      // },
       {
         name: "Tip Calculator",
         hostLink: "https://tip-calculator-react-d8a3de.netlify.app/",
@@ -54,14 +54,14 @@ export const counterSlice = createSlice({
           "The Farm Cart Agro Chemicals Purchase App is a comprehensive web application that facilitates the purchase of agrochemicals and agricultural inputs by farmers. It connects farmers directly with reliable suppliers, offering a convenient platform to browse, compare, and order agrochemical products. With its user-friendly interface and secure transaction process, this project aims to support farmers in obtaining essential inputs for their agricultural practices.",
         img: farmCart,
       },
-      {
-        name: "ToDo App",
-        hostLink: "https://todo-app-994438.netlify.app/",
-        githubLink: "https://github.com/AniketDevmore/ReactTodoApp.git",
-        description:
-          "The ToDo App project is a web application that helps users manage their tasks and stay organized. It provides a user-friendly interface to add, update, and delete tasks, as well as mark them as complete. With its intuitive design and dynamic functionality, this project offers a convenient solution for keeping track of daily tasks and responsibilities.The project utilizes HTML, CSS, JavaScript, and React to create an interactive and responsive user interface. HTML structures the content, CSS styles and enhances the layout, JavaScript handles the logic, and React powers the dynamic rendering and state management of the application.",
-        img: toDo,
-      },
+      // {
+      //   name: "ToDo App",
+      //   hostLink: "https://todo-app-994438.netlify.app/",
+      //   githubLink: "https://github.com/AniketDevmore/ReactTodoApp.git",
+      //   description:
+      //     "The ToDo App project is a web application that helps users manage their tasks and stay organized. It provides a user-friendly interface to add, update, and delete tasks, as well as mark them as complete. With its intuitive design and dynamic functionality, this project offers a convenient solution for keeping track of daily tasks and responsibilities.The project utilizes HTML, CSS, JavaScript, and React to create an interactive and responsive user interface. HTML structures the content, CSS styles and enhances the layout, JavaScript handles the logic, and React powers the dynamic rendering and state management of the application.",
+      //   img: toDo,
+      // },
       {
         name: "Dicee Challenge",
         hostLink: "https://dicee-challenge-afb40c.netlify.app/",
@@ -87,14 +87,14 @@ export const counterSlice = createSlice({
         img: stopWatch,
       },
 
-      {
-        name: "Quick Notes",
-        hostLink: "https://quick-notes-pi.vercel.app/",
-        githubLink: "https://github.com/AniketDevmore/quickNotes.git",
-        description:
-          "The Quick Notes App is a user-friendly web application designed for efficient note-taking and organization. It offers a seamless and intuitive platform for users to create, edit, and manage their notes quickly and effectively. This project combines the power of Bootstrap and Material UI for a visually appealing and responsive user interface, while React JS and JavaScript provide dynamic functionality.",
-        img: quickNotes,
-      },
+      // {
+      //   name: "Quick Notes",
+      //   hostLink: "https://quick-notes-pi.vercel.app/",
+      //   githubLink: "https://github.com/AniketDevmore/quickNotes.git",
+      //   description:
+      //     "The Quick Notes App is a user-friendly web application designed for efficient note-taking and organization. It offers a seamless and intuitive platform for users to create, edit, and manage their notes quickly and effectively. This project combines the power of Bootstrap and Material UI for a visually appealing and responsive user interface, while React JS and JavaScript provide dynamic functionality.",
+      //   img: quickNotes,
+      // },
       // {
       //   name: "",
       //   hostLink: "",
