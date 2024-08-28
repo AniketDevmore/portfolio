@@ -13,6 +13,7 @@ import react from "../../../public/images/react.png";
 import node from "../../../public/images/node.png";
 import mongodb from "../../../public/images/mongoDB.png";
 import git from "../../../public/images/git.png";
+import reactNative from "../../../public/images/reactNative.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -71,6 +72,10 @@ const About = () => {
             <span>
               <img src={react} alt="react" />
               <span>REACT_JS</span>
+            </span>
+            <span>
+              <img src={reactNative} alt="react-native" />
+              <span>React_Native</span>
             </span>
             <span>
               <img src={node} alt="nodeJS" />
