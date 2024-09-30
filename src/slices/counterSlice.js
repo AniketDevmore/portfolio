@@ -22,6 +22,7 @@ export const counterSlice = createSlice({
         description:
           "The Sorting Visualizer project is an interactive web application that allows users to visualize various sorting algorithms in action. By presenting the sorting process in a visual and animated format, this project aims to enhance understanding and intuition about how different sorting algorithms work.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic and animations of the sorting algorithms.",
         img: sortingVisulizer,
+        key: ''
       },
       {
         name: "Furniture Shop",
@@ -30,6 +31,7 @@ export const counterSlice = createSlice({
         description:
           "The Furniture Shop Official Website is the online representation of our renowned furniture store. It serves as the digital front door to shop, providing customers with an engaging and informative platform for exploring our range of furniture and home decor products. This project is designed to offer a seamless and immersive experience that reflects shop commitment to quality, style, and customer satisfaction.The project utilizes HTML, CSS, JavaScript, React, and Redux to create an immersive and responsive user interface. HTML structures the content, CSS enhances the visual appeal and layout, JavaScript handles the logic, React powers the dynamic rendering, and Redux manages the state of the application.",
         img: furnitureShop,
+        key: ''
       },
       // {
       //   name: "Thali App",
@@ -46,6 +48,7 @@ export const counterSlice = createSlice({
         description:
           "The Tracker app is designed to help you take control of your daily spending with a simple, efficient, and user-friendly interface. Built using React Native and powered by Firebase. Stay informed with a detailed view of your expenses from the last 7 days, helping you monitor your recent spending habits. Easily manage your expenses with options to add, modify, or remove entries as your financial situation changes.",
         img: expenses,
+        key: 'native'
       },
       {
         name: "Dicee Challenge",
@@ -54,6 +57,7 @@ export const counterSlice = createSlice({
         description:
           "The Dice Challenge project is an interactive web application that simulates a dice game. It allows users to roll two dice and compare the results to determine the winner. With its engaging interface and random outcome generation, this project provides a fun and exciting gaming experience.The project utilizes HTML, CSS, and JavaScript to create an interactive and visually appealing user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the dice game.",
         img: dicee,
+        key: ''
       },
       {
         name: "Tip Calculator",
@@ -62,6 +66,7 @@ export const counterSlice = createSlice({
         description:
           "   The Tip Calculator project is a user-friendly web application that helps calculate the appropriate tip amount based on the bill total and desired tip percentage. It aims to simplify the process of determining tips, providing users with a convenient tool for accurate calculations.The project utilizes HTML, CSS, JavaScript, and react to create an intuitive and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic and calculations of the tip calculator. ",
         img: tipCalculator,
+        key: ''
       },
       // {
       //   name: "Farm Cart (Work-in-Progress)",
@@ -87,6 +92,7 @@ export const counterSlice = createSlice({
         description:
           "    The Drum Kit project is an interactive web application that emulates a virtual drum set. It allows users to play different drum sounds by pressing corresponding keys on their keyboard or by clicking on the drum pads on the screen. With its realistic sound effects and dynamic visual feedback, this project provides a fun and immersive drumming experience.The project utilizes HTML, CSS, and JavaScript to create an engaging and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of playing the drum sounds.",
         img: drum,
+        key: ''
       },
       {
         name: "Stop Wtch",
@@ -95,6 +101,7 @@ export const counterSlice = createSlice({
         description:
           "The Stopwatch App is a simple and user-friendly web application that emulates a digital stopwatch. It provides users with the ability to start, stop, and reset the stopwatch, allowing them to measure elapsed time accurately. With its intuitive design and real-time updates, this project offers a convenient solution for timing various activities and tasks.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the stop watch application.",
         img: stopWatch,
+        key: ''
       },
 
       // {
