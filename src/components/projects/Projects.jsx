@@ -24,16 +24,28 @@ const Projects = () => {
             </div>
             <h5>{ele.name}</h5>
             <p>{ele.description}</p>
-            <div className="btnDiv">
-              <a href={ele.hostLink} target="_blank">
-                {/* VIEW */}
-                <i class="fa-solid fa-desktop fa-lg"></i>
-              </a>
-              <a href={ele.githubLink} target="_blank">
-                {/* SOURCE */}
-                <i className="fa-brands fa-github fa-lg"></i>
-              </a>
-            </div>
+            {ele.key !== 'native' ?
+              <div className="btnDiv">
+                <a href={ele.hostLink} target="_blank">
+                  {/* VIEW */}
+                  <i class="fa-solid fa-desktop fa-lg"></i>
+                </a>
+                <a href={ele.githubLink} target="_blank">
+                  {/* SOURCE */}
+                  <i className="fa-brands fa-github fa-lg"></i>
+                </a>
+              </div>
+              :
+              <div className="btnDiv">
+                <a href={ele.hostLink} target="_blank">
+                  {/* VIEW */}
+                  <i class="fa-solid fa-mobile fa-lg" style={{paddingLeft: 4, paddingRight: 4}}></i>
+                </a>
+                <a href={ele.githubLink} target="_blank">
+                  {/* SOURCE */}
+                  <i className="fa-brands fa-github fa-lg"></i>
+                </a>
+              </div>}
           </div>
         ))}
       </div>
