@@ -43,7 +43,7 @@ export const counterSlice = createSlice({
       // },
       {
         name: "Tracker App",
-        hostLink: "https://drive.google.com/file/d/1qmV3Y3oGKHvKteQy33d_MQqCgtoxTpLK/view?usp=sharing",
+        hostLink: "https://drive.google.com/file/d/1Xy5GRVG4BF44eKQ90gMaxJ96ChEk7Bji/view?usp=sharing",
         githubLink: "https://github.com/AniketDevmore/TrackerApp",
         description:
           "The Tracker app is designed to help you take control of your daily spending with a simple, efficient, and user-friendly interface. Built using React Native and powered by Firebase. Stay informed with a detailed view of your expenses from the last 7 days, helping you monitor your recent spending habits. Easily manage your expenses with options to add, modify, or remove entries as your financial situation changes.",

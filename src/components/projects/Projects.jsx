@@ -39,6 +39,10 @@ const Projects = () => {
               <div className="btnDiv">
                 <a href={ele.hostLink} target="_blank">
                   {/* VIEW */}
+                  <i class="fa-solid fa-mobile-screen-button fa-lg" style={{paddingLeft: 4, paddingRight: 4}}></i>
+                </a>
+                <a href={ele.hostLink} target="_blank">
+                  {/* VIEW */}
                   <i class="fa-solid fa-mobile fa-lg" style={{paddingLeft: 4, paddingRight: 4}}></i>
                 </a>
                 <a href={ele.githubLink} target="_blank">
