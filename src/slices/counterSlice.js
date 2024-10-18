@@ -10,11 +10,44 @@ import drum from "../../public/images/drum.png";
 import stopWatch from "../../public/images/stopWatch.png";
 import furnitureShop from "../../public/images/furnitureShop.png";
 import quickNotes from "../../public/images/quickNotes.png";
+import aankanaad from "../../public/images/aankanaad.png";
+import fluenci from "../../public/images/fluenci.png";
+import heurisko from "../../public/images/heurisko.png";
 
 export const counterSlice = createSlice({
   name: "counter",
   initialState: {
     project: [
+      {
+        name: "Aankanaad",
+        ios:'https://apps.apple.com/us/app/aanknaad-%E0%A4%85-%E0%A4%95%E0%A4%A8-%E0%A4%A6/id6467229132',
+        adroid: "https://play.google.com/store/apps/details?id=com.snt.ankanaad&hl=en",
+        githubLink: "",
+        description:
+          "As a frontend developer, I contributed to the development of Ankanaad , a React Native-based mobile application designed to deliver educational video content for children. The app offers a fun and engaging platform for early childhood education, providing videos tailored to young learners. It was optimized for both iOS and Android, ensuring a smooth and intuitive experience.",
+        img: aankanaad,
+        key: 'native'
+      },
+      {
+        name: "Fluenci.ai",
+        ios:'https://apps.apple.com/us/app/fluenci-ai/id6502857409',
+        adroid: "https://play.google.com/store/search?q=fluenci.ai&c=apps&hl=en",
+        githubLink: "",
+        description:
+          "Developed Fluenci.ai , an AI-driven language learning application using React Native for the iOS platform. The app leverages advanced AI technology to provide personalized language learning experiences, enabling users to practice comprehension skills through interactive chat-based lessons with a virtual tutor powered by ChatGPT.",
+        img: fluenci,
+        key: 'native'
+      },
+      {
+        name: "Heurisko.ai",
+        ios:'https://apps.apple.com/us/app/heurisko-ai/id6599843069',
+        adroid: "https://play.google.com/store/search?q=heurisko.ai&c=apps&hl=en",
+        githubLink: "",
+        description:
+          "Developed Heurisko.ai , an AI-driven Mathematics learning application using React Native for the iOS platform. The app leverages advanced AI technology to provide personalized mathematics learning experiences, enabling users to practice comprehension skills through interactive chat-based lessons with a virtual tutor powered by ChatGPT.",
+        img: heurisko,
+        key: 'native'
+      },
       {
         name: "Sorting visualizer",
         hostLink: "https://sorting-visulizer-db51d7.netlify.app/",
@@ -43,31 +76,32 @@ export const counterSlice = createSlice({
       // },
       {
         name: "Tracker App",
-        hostLink: "https://drive.google.com/file/d/1qmV3Y3oGKHvKteQy33d_MQqCgtoxTpLK/view?usp=sharing",
+        ios:'',
+        adroid: "https://drive.google.com/file/d/1qmV3Y3oGKHvKteQy33d_MQqCgtoxTpLK/view?usp=sharing",
         githubLink: "https://github.com/AniketDevmore/TrackerApp",
         description:
           "The Tracker app is designed to help you take control of your daily spending with a simple, efficient, and user-friendly interface. Built using React Native and powered by Firebase. Stay informed with a detailed view of your expenses from the last 7 days, helping you monitor your recent spending habits. Easily manage your expenses with options to add, modify, or remove entries as your financial situation changes.",
         img: expenses,
         key: 'native'
       },
-      {
-        name: "Dicee Challenge",
-        hostLink: "https://dicee-challenge-afb40c.netlify.app/",
-        githubLink: "https://github.com/AniketDevmore/DiceeChallenge.git",
-        description:
-          "The Dice Challenge project is an interactive web application that simulates a dice game. It allows users to roll two dice and compare the results to determine the winner. With its engaging interface and random outcome generation, this project provides a fun and exciting gaming experience.The project utilizes HTML, CSS, and JavaScript to create an interactive and visually appealing user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the dice game.",
-        img: dicee,
-        key: ''
-      },
-      {
-        name: "Tip Calculator",
-        hostLink: "https://tip-calculator-react-d8a3de.netlify.app/",
-        githubLink: "https://github.com/AniketDevmore/reactTipCalculator.git",
-        description:
-          "   The Tip Calculator project is a user-friendly web application that helps calculate the appropriate tip amount based on the bill total and desired tip percentage. It aims to simplify the process of determining tips, providing users with a convenient tool for accurate calculations.The project utilizes HTML, CSS, JavaScript, and react to create an intuitive and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic and calculations of the tip calculator. ",
-        img: tipCalculator,
-        key: ''
-      },
+      // {
+      //   name: "Dicee Challenge",
+      //   hostLink: "https://dicee-challenge-afb40c.netlify.app/",
+      //   githubLink: "https://github.com/AniketDevmore/DiceeChallenge.git",
+      //   description:
+      //     "The Dice Challenge project is an interactive web application that simulates a dice game. It allows users to roll two dice and compare the results to determine the winner. With its engaging interface and random outcome generation, this project provides a fun and exciting gaming experience.The project utilizes HTML, CSS, and JavaScript to create an interactive and visually appealing user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the dice game.",
+      //   img: dicee,
+      //   key: ''
+      // },
+      // {
+      //   name: "Tip Calculator",
+      //   hostLink: "https://tip-calculator-react-d8a3de.netlify.app/",
+      //   githubLink: "https://github.com/AniketDevmore/reactTipCalculator.git",
+      //   description:
+      //     "   The Tip Calculator project is a user-friendly web application that helps calculate the appropriate tip amount based on the bill total and desired tip percentage. It aims to simplify the process of determining tips, providing users with a convenient tool for accurate calculations.The project utilizes HTML, CSS, JavaScript, and react to create an intuitive and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic and calculations of the tip calculator. ",
+      //   img: tipCalculator,
+      //   key: ''
+      // },
       // {
       //   name: "Farm Cart (Work-in-Progress)",
       //   hostLink: "https://github.com/AniketDevmore/AgroShop.git",
@@ -85,24 +119,24 @@ export const counterSlice = createSlice({
       //   img: toDo,
       // },
 
-      {
-        name: "Drum Kit",
-        hostLink: "https://drum-kit-e7be9d.netlify.app/",
-        githubLink: "https://github.com/AniketDevmore/DrumKit.git",
-        description:
-          "    The Drum Kit project is an interactive web application that emulates a virtual drum set. It allows users to play different drum sounds by pressing corresponding keys on their keyboard or by clicking on the drum pads on the screen. With its realistic sound effects and dynamic visual feedback, this project provides a fun and immersive drumming experience.The project utilizes HTML, CSS, and JavaScript to create an engaging and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of playing the drum sounds.",
-        img: drum,
-        key: ''
-      },
-      {
-        name: "Stop Wtch",
-        hostLink: "https://github.com/AniketDevmore/StopWatch.git",
-        githubLink: "https://github.com/AniketDevmore/StopWatch.git",
-        description:
-          "The Stopwatch App is a simple and user-friendly web application that emulates a digital stopwatch. It provides users with the ability to start, stop, and reset the stopwatch, allowing them to measure elapsed time accurately. With its intuitive design and real-time updates, this project offers a convenient solution for timing various activities and tasks.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the stop watch application.",
-        img: stopWatch,
-        key: ''
-      },
+      // {
+      //   name: "Drum Kit",
+      //   hostLink: "https://drum-kit-e7be9d.netlify.app/",
+      //   githubLink: "https://github.com/AniketDevmore/DrumKit.git",
+      //   description:
+      //     "    The Drum Kit project is an interactive web application that emulates a virtual drum set. It allows users to play different drum sounds by pressing corresponding keys on their keyboard or by clicking on the drum pads on the screen. With its realistic sound effects and dynamic visual feedback, this project provides a fun and immersive drumming experience.The project utilizes HTML, CSS, and JavaScript to create an engaging and responsive user interface. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of playing the drum sounds.",
+      //   img: drum,
+      //   key: ''
+      // },
+      // {
+      //   name: "Stop Wtch",
+      //   hostLink: "https://github.com/AniketDevmore/StopWatch.git",
+      //   githubLink: "https://github.com/AniketDevmore/StopWatch.git",
+      //   description:
+      //     "The Stopwatch App is a simple and user-friendly web application that emulates a digital stopwatch. It provides users with the ability to start, stop, and reset the stopwatch, allowing them to measure elapsed time accurately. With its intuitive design and real-time updates, this project offers a convenient solution for timing various activities and tasks.The project utilizes HTML, CSS, and JavaScript to create an engaging and interactive user experience. HTML is responsible for structuring the content, CSS is used for styling and layout, and JavaScript handles the logic of the stop watch application.",
+      //   img: stopWatch,
+      //   key: ''
+      // },
 
       // {
       //   name: "Quick Notes",

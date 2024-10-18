@@ -37,21 +37,25 @@ const AllProjects = () => {
             <p>{ele.description}</p>
             {ele.key !== 'native' ?
               <div className="btnDiv">
-                <a href={ele.hostLink} target="_blank">
+                {ele.hostLink !== '' && <a href={ele.hostLink} target="_blank">
                   {/* VIEW */}
                   <i class="fa-solid fa-desktop fa-lg"></i>
-                </a>
-                <a href={ele.githubLink} target="_blank">
+                </a>}
+                {ele.githubLink !== '' && <a href={ele.githubLink} target="_blank">
                   {/* SOURCE */}
                   <i className="fa-brands fa-github fa-lg"></i>
-                </a>
+                </a>}
               </div>
               :
               <div className="btnDiv">
-                <a href={ele.hostLink} target="_blank">
+                {ele.android !== '' && <a href={ele.android} target="_blank">
                   {/* VIEW */}
-                  <i class="fa-solid fa-mobile fa-lg" style={{paddingLeft: 4, paddingRight: 4}}></i>
-                </a>
+                  <i class="fa-brands fa-android" style={{ paddingLeft: 2, paddingRight: 2 }}></i>
+                  {/* <i class="fa-solid fa-mobile fa-lg" style={{paddingLeft: 4, paddingRight: 4}}></i> */}
+                </a>}
+                {ele.ios !== '' && <a href={ele.ios} target="_blank">
+                  <i class="fa-brands fa-apple" style={{ paddingLeft: 5, paddingRight: 5 }}></i>
+                </a>}
                 <a href={ele.githubLink} target="_blank">
                   {/* SOURCE */}
                   <i className="fa-brands fa-github fa-lg"></i>
