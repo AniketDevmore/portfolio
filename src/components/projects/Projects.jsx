@@ -45,10 +45,10 @@ const Projects = () => {
                 {ele.ios !== '' && <a href={ele.ios} target="_blank">
                   <i class="fa-brands fa-apple" style={{ paddingLeft: 5, paddingRight: 5 }}></i>
                 </a>}
-                <a href={ele.githubLink} target="_blank">
+                {ele.githubLink !== '' && <a href={ele.githubLink} target="_blank">
                   {/* SOURCE */}
                   <i className="fa-brands fa-github fa-lg"></i>
-                </a>
+                </a>}
               </div>}
           </div>
         ))}

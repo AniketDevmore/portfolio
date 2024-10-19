@@ -13,15 +13,27 @@ import quickNotes from "../../public/images/quickNotes.png";
 import aankanaad from "../../public/images/aankanaad.png";
 import fluenci from "../../public/images/fluenci.png";
 import heurisko from "../../public/images/heurisko.png";
+import cocacola from "../../public/images/cocacola.png";
+import buroMatrix from "../../public/images/buroMatrix.png"
 
 export const counterSlice = createSlice({
   name: "counter",
   initialState: {
     project: [
       {
+        name: "MyCoke",
+        ios: "",
+        android: "",
+        githubLink: "",
+        description:
+          "Contributed to the development of MyCoke , an eCommerce mobile application built with React Native for the frontend and Salesforce for the backend. The app was designed to provide a seamless shopping experience for Coca-Cola products, allowing users to browse, purchase, and track their orders with ease.",
+        img: cocacola,
+        key: 'native'
+      },
+      {
         name: "Aankanaad",
-        ios:'https://apps.apple.com/us/app/aanknaad-%E0%A4%85-%E0%A4%95%E0%A4%A8-%E0%A4%A6/id6467229132',
-        adroid: "https://play.google.com/store/apps/details?id=com.snt.ankanaad&hl=en",
+        ios: 'https://apps.apple.com/us/app/aanknaad-%E0%A4%85-%E0%A4%95%E0%A4%A8-%E0%A4%A6/id6467229132',
+        android: "https://play.google.com/store/apps/details?id=com.snt.ankanaad&hl=en",
         githubLink: "",
         description:
           "As a frontend developer, I contributed to the development of Ankanaad , a React Native-based mobile application designed to deliver educational video content for children. The app offers a fun and engaging platform for early childhood education, providing videos tailored to young learners. It was optimized for both iOS and Android, ensuring a smooth and intuitive experience.",
@@ -30,8 +42,8 @@ export const counterSlice = createSlice({
       },
       {
         name: "Fluenci.ai",
-        ios:'https://apps.apple.com/us/app/fluenci-ai/id6502857409',
-        adroid: "https://play.google.com/store/search?q=fluenci.ai&c=apps&hl=en",
+        ios: 'https://apps.apple.com/us/app/fluenci-ai/id6502857409',
+        android: "https://play.google.com/store/search?q=fluenci.ai&c=apps&hl=en",
         githubLink: "",
         description:
           "Developed Fluenci.ai , an AI-driven language learning application using React Native for the iOS platform. The app leverages advanced AI technology to provide personalized language learning experiences, enabling users to practice comprehension skills through interactive chat-based lessons with a virtual tutor powered by ChatGPT.",
@@ -40,12 +52,22 @@ export const counterSlice = createSlice({
       },
       {
         name: "Heurisko.ai",
-        ios:'https://apps.apple.com/us/app/heurisko-ai/id6599843069',
-        adroid: "https://play.google.com/store/search?q=heurisko.ai&c=apps&hl=en",
+        ios: 'https://apps.apple.com/us/app/heurisko-ai/id6599843069',
+        android: "https://play.google.com/store/search?q=heurisko.ai&c=apps&hl=en",
         githubLink: "",
         description:
           "Developed Heurisko.ai , an AI-driven Mathematics learning application using React Native for the iOS platform. The app leverages advanced AI technology to provide personalized mathematics learning experiences, enabling users to practice comprehension skills through interactive chat-based lessons with a virtual tutor powered by ChatGPT.",
         img: heurisko,
+        key: 'native'
+      },
+      {
+        name: "BuroMatrix",
+        ios: "",
+        android: "",
+        githubLink: "",
+        description:
+          "Developed BuroMatrix , a comprehensive employee management system using React Native . The app is designed to streamline employee management processes such as CRM, Task assignment, Expense Management, and Employee profile management. The system enhances organizational productivity and provides a seamless experience for employees and managers on both iOS and Android platforms.",
+        img: buroMatrix,
         key: 'native'
       },
       {
@@ -76,8 +98,8 @@ export const counterSlice = createSlice({
       // },
       {
         name: "Tracker App",
-        ios:'',
-        adroid: "https://drive.google.com/file/d/1qmV3Y3oGKHvKteQy33d_MQqCgtoxTpLK/view?usp=sharing",
+        ios: '',
+        android: "https://drive.google.com/file/d/1qmV3Y3oGKHvKteQy33d_MQqCgtoxTpLK/view?usp=sharing",
         githubLink: "https://github.com/AniketDevmore/TrackerApp",
         description:
           "The Tracker app is designed to help you take control of your daily spending with a simple, efficient, and user-friendly interface. Built using React Native and powered by Firebase. Stay informed with a detailed view of your expenses from the last 7 days, helping you monitor your recent spending habits. Easily manage your expenses with options to add, modify, or remove entries as your financial situation changes.",
@@ -163,6 +185,6 @@ export const counterSlice = createSlice({
   reducers: {},
 });
 
-export const {} = counterSlice.actions;
+export const { } = counterSlice.actions;
 
 export default counterSlice.reducer;
