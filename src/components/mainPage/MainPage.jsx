@@ -12,8 +12,8 @@ const MainPage = () => {
           <img src={backgroundImg} alt="img." />
         </div>
         <div className="mainTextDiv">
-          <h5>HI, I'M MERN DEVELOPER</h5>
-          <h1>Web Developer</h1>
+          <h5>HI, I'M FRONTEND DEVELOPER</h5>
+          <h1>React and React Native Developer</h1>
           <div>
             <Link to={`/all-projects`}>PROJECTS</Link>
             <Link to={`/contact`}>CONTACT</Link>

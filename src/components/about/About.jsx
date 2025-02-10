@@ -13,6 +13,7 @@ import react from "../../../public/images/react.png";
 import node from "../../../public/images/node.png";
 import mongodb from "../../../public/images/mongoDB.png";
 import git from "../../../public/images/git.png";
+import firebase from "../../../public/images/firebase.png";
 import reactNative from "../../../public/images/reactNative.png";
 import { Link } from "react-router-dom";
 
@@ -30,16 +31,14 @@ const About = () => {
           <h1>Aniket </h1>
           <h2>Devmore</h2>
           <hr />
-          <p>FULL STACK WEB DEVELOPER</p>
+          <p>FRONTEND DEVELOPER</p>
           <Link to={`/contact`}>CONTACT</Link>
         </div>
         <div className="aboutContentDiv">
           <h1>ABOUT</h1>
-          <p>Hi, I am a Full Stack Web Developer and Web Designer.</p>
+          <p>Hi, I am a React and React Native Developer.</p>
           <p>
-            I love working on new and exciting technologies emerging nowadays. I
-            have a keen interest in Web Development and I am always looking for
-            new opportunities to learn and grow.
+          "Highly skilled Frontend Developer with experience in building responsive and user-friendly web and mobile applications using React JS and React Native. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks, with a strong focus on performance optimization and intuitive UI/UX design. Adept at collaborating with cross-functional teams to deliver scalable and maintainable solutions. Passionate about learning new technologies and delivering exceptional digital experiences."
           </p>
         </div>
         <div className="aboutSkillsDiv">
@@ -76,6 +75,10 @@ const About = () => {
             <span>
               <img src={reactNative} alt="react-native" />
               <span>React_Native</span>
+            </span>
+            <span>
+              <img src={firebase} alt="firebase" />
+              <span>Firebase</span>
             </span>
             <span>
               <img src={node} alt="nodeJS" />
