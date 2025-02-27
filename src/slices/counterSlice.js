@@ -15,6 +15,7 @@ import fluenci from "../../public/images/fluenci.png";
 import heurisko from "../../public/images/heurisko.png";
 import cocacola from "../../public/images/cocacola.png";
 import buroMatrix from "../../public/images/buroMatrix.png"
+import sajilolife from "../../public/images/sajilolife.jpg"
 
 export const counterSlice = createSlice({
   name: "counter",
@@ -37,7 +38,7 @@ export const counterSlice = createSlice({
         githubLink: "",
         description:
           "Sajilo Life is a feature-rich grocery shopping app built using React Native, designed to provide a seamless online shopping experience for users in Nepal. The app enables customers to browse a wide range of grocery items, add products to their cart, and place orders with ease.",
-        img: aankanaad,
+        img: sajilolife,
         key: 'native'
       },
       {
