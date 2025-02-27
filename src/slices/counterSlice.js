@@ -31,6 +31,16 @@ export const counterSlice = createSlice({
         key: 'native'
       },
       {
+        name: "Sajilo Life",
+        ios: 'https://apps.apple.com/in/app/sajilo-life-app/id6737478232',
+        android: "https://play.google.com/store/apps/details?id=com.sajilolife&hl=en",
+        githubLink: "",
+        description:
+          "Sajilo Life is a feature-rich grocery shopping app built using React Native, designed to provide a seamless online shopping experience for users in Nepal. The app enables customers to browse a wide range of grocery items, add products to their cart, and place orders with ease.",
+        img: aankanaad,
+        key: 'native'
+      },
+      {
         name: "Aankanaad",
         ios: 'https://apps.apple.com/us/app/aanknaad-%E0%A4%85-%E0%A4%95%E0%A4%A8-%E0%A4%A6/id6467229132',
         android: "https://play.google.com/store/apps/details?id=com.snt.ankanaad&hl=en",
